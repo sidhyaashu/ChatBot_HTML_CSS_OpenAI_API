@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboWiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Inter:wght@400;600;700&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="./c1.svg" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="./index.js" defer></script>
+</head>
+<body>
+    <button class="chatbot_toggle">
+        <span class="open_box" ><i class="fa-solid fa-comment"></i></span>
+        <span class="close_box" >
+            <i class="fa-solid fa-x"></i>
+        </span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h3>RoboWiz</h3>
+        </header>
+        <ul class="chat_box">
+            <li class="chat incoming">
+                <span><img src="./c.png" alt="bot"></span>
+                <p>Hii there <br>How can i help you today? </p>
+            </li>
+            <!-- <li class="chat outgoing">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, sequi!</p>
+            </li> -->
+        </ul>
+        <div class="chat_input">
+            <textarea placeholder="Enter your query..."></textarea>
+            <span class="send_button"><i class="fa-solid fa-paper-plane send_color"></i></span>
+        </div>
+    </div>
+</body>
+</html>
